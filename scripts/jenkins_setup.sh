@@ -29,5 +29,8 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt-get update -y
 sudo apt-get install -y terraform
 
+sudo apt-get update -y
+sudo apt-get install -y awscli
+
 # === Final Info ===
 echo "✅ Jenkins & Terraform installation completed!"
