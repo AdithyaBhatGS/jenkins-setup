@@ -8,11 +8,6 @@ variable "bkt_name" {
   description = "Represents the bucket name"
 }
 
-variable "tags_for_s3" {
-  type        = map(string)
-  description = "Represents the tag associated with the s3 bucket"
-}
-
 
 variable "version_status" {
   type        = string

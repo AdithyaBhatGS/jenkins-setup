@@ -52,6 +52,18 @@ Setting up the jenkins using IAC in AWS
 3. Run the project, for example:
 
    ```bash
+   terraform init
+   ```
+
+   ```bash
+   terraform fmt
+   ```
+
+   ```bash
+   terraform validate
+   ```
+
+   ```bash
    terraform plan
    ```
 
@@ -60,7 +72,22 @@ Setting up the jenkins using IAC in AWS
    ```
 
 4. Now once you have setup the backend, move towards setting up the jenkins instance
-5. ```bash
+5. Navigate to jenkins-setup/ i.e root folder
+6. Run the following commands:
+
+   ```bash
+   terraform init
+   ```
+
+   ```bash
+   terraform fmt
+   ```
+
+   ```bash
+   terraform validate
+   ```
+
+   ```bash
    terraform plan
    ```
 

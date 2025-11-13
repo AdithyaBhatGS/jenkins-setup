@@ -48,6 +48,14 @@ variable "jenkins_inbound" {
   }))
 }
 
+variable "jenkins_outbound" {
+  type = map(object({
+    cidr_ipv4 = string
+    from_port = number
+    to_port   = number
+    protocol  = string
+  }))
+}
 variable "ec2_role_name" {
   type        = string
   description = "Represents the name of the EC2 Role"

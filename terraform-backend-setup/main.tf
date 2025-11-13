@@ -80,3 +80,4 @@ resource "aws_dynamodb_table" "lock_table" {
 
   tags = var.tags_for_dynamoDB
 }
+
